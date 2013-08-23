@@ -125,4 +125,24 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/goghspr/proprietary/lib/modules/vpnclient.ko:system/lib/modules/vpnclient.ko \
         vendor/samsung/goghspr/proprietary/lib/modules/prima/cfg80211.ko:system/lib/modules/prima/cfg80211.ko \
         vendor/samsung/goghspr/proprietary/lib/modules/prima/prima_wlan.ko:system/lib/modules/prima/prima_wlan.ko \
-        vendor/samsung/goghspr/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so
+        vendor/samsung/goghspr/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
+        vendor/samsung/goghspr/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
+        vendor/samsung/goghspr/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
+        vendor/samsung/goghspr/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
+        vendor/samsung/goghspr/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
+        vendor/samsung/goghspr/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
+        vendor/samsung/goghspr/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
+        vendor/samsung/goghspr/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
+        vendor/samsung/goghspr/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
+        vendor/samsung/goghspr/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
+        vendor/samsung/goghspr/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
+        vendor/samsung/goghspr/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
+        vendor/samsung/goghspr/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
+        vendor/samsung/goghspr/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
+        vendor/samsung/goghspr/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
+        vendor/samsung/goghspr/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
+        vendor/samsung/goghspr/proprietary/lib/libgsl.so:system/lib/libgsl.so \
+        vendor/samsung/goghspr/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
+        vendor/samsung/goghspr/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
+        vendor/samsung/goghspr/proprietary/etc/firmware/wcd9310/wcd9310_anc.bin:system/etc/firmware/wcd9310/wcd9310_anc.bin \
+        vendor/samsung/goghspr/proprietary/etc/firmware/wcd9310/wcd9310_mbhc.bin:system/etc/firmware/wcd9310/wcd9310_mbhc.bin
