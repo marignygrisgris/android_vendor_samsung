@@ -71,6 +71,8 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/goghspr/proprietary/lib/libqmi_encdec.so:system/lib/libqmi_encdec.so \
         vendor/samsung/goghspr/proprietary/lib/libatparser.so:system/lib/libatparser.so \
         vendor/samsung/goghspr/proprietary/bin/wiperiface_v02:system/bin/wiperiface_v02 \
+        vendor/samsung/goghspr/proprietary/bin/quipc_igsn:system/bin/quipc_igsn \
+        vendor/samsung/goghspr/proprietary/bin/quipc_main:system/bin/quipc_main \
         vendor/samsung/goghspr/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
         vendor/samsung/goghspr/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
         vendor/samsung/goghspr/proprietary/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
@@ -78,6 +80,8 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/goghspr/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
         vendor/samsung/goghspr/proprietary/lib/libcurl.so:system/lib/libcurl.so \
         vendor/samsung/goghspr/proprietary/lib/libbson.so:system/lib/libbson.so \
+        vendor/samsung/goghspr/proprietary/lib/libquipc_os_api.so:system/lib/libquipc_os_api.so \
+        vendor/samsung/goghspr/proprietary/lib/libquipc_ulp_adapter.so:system/lib/libquipc_ulp_adapter.so \
         vendor/samsung/goghspr/proprietary/lib/libwifiscanner.so:system/lib/libwifiscanner.so \
         vendor/samsung/goghspr/proprietary/lib/hw/nfc.MSM8960.so:system/lib/hw/nfc.MSM8960.so \
         vendor/samsung/goghspr/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
