@@ -88,6 +88,8 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/goghspr/proprietary/bin/geomagneticd:system/bin/geomagneticd \
         vendor/samsung/goghspr/proprietary/bin/orientationd:system/bin/orientationd \
         vendor/samsung/goghspr/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
+        vendor/samsung/goghspr/proprietary/lib/libWakeUpSensory.so:system/lib/libWakeUpSensory.so \
+	vendor/samsung/goghspr/proprietary/lib/libsensor_yamaha532_test.so:system/lib/libsensor_yamaha532_test.so \
         vendor/samsung/goghspr/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
         vendor/samsung/goghspr/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
         vendor/samsung/goghspr/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
