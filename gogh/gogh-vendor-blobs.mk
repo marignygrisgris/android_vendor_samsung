@@ -21,6 +21,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
         vendor/samsung/gogh/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
+        vendor/samsung/gogh/proprietary/bin/hostapd:system/bin/hostapd \
         vendor/samsung/gogh/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
         vendor/samsung/gogh/proprietary/bin/btnvtool:system/bin/btnvtool \
         vendor/samsung/gogh/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
@@ -130,6 +131,8 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/gogh/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
         vendor/samsung/gogh/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
         vendor/samsung/gogh/proprietary/lib/modules/vpnclient.ko:system/lib/modules/vpnclient.ko \
+        vendor/samsung/gogh/proprietary/lib/modules/cfg80211.ko:system/lib/modules/cfg80211.ko \
+        vendor/samsung/gogh/proprietary/lib/modules/wlan.ko:system/lib/modules/wlan.ko \
         vendor/samsung/gogh/proprietary/lib/modules/prima/cfg80211.ko:system/lib/modules/prima/cfg80211.ko \
         vendor/samsung/gogh/proprietary/lib/modules/prima/prima_wlan.ko:system/lib/modules/prima/prima_wlan.ko \
         vendor/samsung/gogh/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
