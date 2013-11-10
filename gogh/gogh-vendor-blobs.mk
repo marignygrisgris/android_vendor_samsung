@@ -20,6 +20,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/gogh/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so
 
 PRODUCT_COPY_FILES += \
+        vendor/samsung/gogh/proprietary/bin/macloader:system/bin/macloader \
         vendor/samsung/gogh/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
         vendor/samsung/gogh/proprietary/bin/hostapd:system/bin/hostapd \
         vendor/samsung/gogh/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
