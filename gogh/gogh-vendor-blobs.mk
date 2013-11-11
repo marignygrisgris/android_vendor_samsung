@@ -30,7 +30,6 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/gogh/proprietary/bin/hciattach:system/bin/hciattach \
         vendor/samsung/gogh/proprietary/bin/immvibed:system/bin/immvibed \
         vendor/samsung/gogh/proprietary/bin/LE_dut:system/bin/LE_dut \
-        vendor/samsung/gogh/proprietary/bin/mpdecision:system/bin/mpdecision \
         vendor/samsung/gogh/proprietary/bin/port-bridge:system/bin/port-bridge \
         vendor/samsung/gogh/proprietary/bin/secstarter:system/bin/secstarter \
         vendor/samsung/gogh/proprietary/bin/qcom_dut:system/bin/qcom_dut \
@@ -157,3 +156,5 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/gogh/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
         vendor/samsung/gogh/proprietary/etc/firmware/wcd9310/wcd9310_anc.bin:system/etc/firmware/wcd9310/wcd9310_anc.bin \
         vendor/samsung/gogh/proprietary/etc/firmware/wcd9310/wcd9310_mbhc.bin:system/etc/firmware/wcd9310/wcd9310_mbhc.bin
+
+#        vendor/samsung/gogh/proprietary/bin/mpdecision:system/bin/mpdecision \
