@@ -21,13 +21,10 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
         vendor/samsung/gogh/proprietary/bin/macloader:system/bin/macloader \
-        vendor/samsung/gogh/proprietary/bin/hostapd:system/bin/hostapd \
         vendor/samsung/gogh/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
         vendor/samsung/gogh/proprietary/bin/btnvtool:system/bin/btnvtool \
         vendor/samsung/gogh/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
         vendor/samsung/gogh/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-        vendor/samsung/gogh/proprietary/bin/hciattach:system/bin/hciattach \
-        vendor/samsung/gogh/proprietary/bin/immvibed:system/bin/immvibed \
         vendor/samsung/gogh/proprietary/bin/LE_dut:system/bin/LE_dut \
         vendor/samsung/gogh/proprietary/bin/port-bridge:system/bin/port-bridge \
         vendor/samsung/gogh/proprietary/bin/secstarter:system/bin/secstarter \
@@ -42,6 +39,9 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/gogh/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
         vendor/samsung/gogh/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
         vendor/samsung/gogh/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
+        vendor/samsung/gogh/proprietary/lib/libcontrolcsc.so:system/lib/libcontrolcsc.so \
+        vendor/samsung/gogh/proprietary/lib/libalsa-intf.so:system/lib/libalsa-intf.so \
+        vendor/samsung/gogh/proprietary/lib/libwvm.so:system/lib/libwvm.so \
         vendor/samsung/gogh/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
         vendor/samsung/gogh/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
         vendor/samsung/gogh/proprietary/lib/libdivxdrm.so:system/lib/libdivxdrm.so \
@@ -115,6 +115,9 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/gogh/proprietary/lib/libchromatix_s5k3l1yx_zsl.so:system/lib/libchromatix_s5k3l1yx_zsl.so \
         vendor/samsung/gogh/proprietary/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
         vendor/samsung/gogh/proprietary/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv \
+        vendor/samsung/gogh/proprietary/lib/libchromatix_s5k3l1yx_hfr_60fps.so:system/lib/libchromatix_s5k3l1yx_hfr_60fps.so \
+        vendor/samsung/gogh/proprietary/lib/libchromatix_s5k3l1yx_hfr_90fps.so:system/lib/libchromatix_s5k3l1yx_hfr_90fps.so \
+        vendor/samsung/gogh/proprietary/lib/libchromatix_s5k3l1yx_hfr_120fps.so:system/lib/libchromatix_s5k3l1yx_hfr_120fps.so \
         vendor/samsung/gogh/proprietary/lib/libdiag.so:system/lib/libdiag.so \
         vendor/samsung/gogh/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
         vendor/samsung/gogh/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini:system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini \
@@ -156,5 +159,10 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/gogh/proprietary/etc/firmware/wcd9310/wcd9310_anc.bin:system/etc/firmware/wcd9310/wcd9310_anc.bin \
         vendor/samsung/gogh/proprietary/etc/firmware/wcd9310/wcd9310_mbhc.bin:system/etc/firmware/wcd9310/wcd9310_mbhc.bin
 
+
+
+#        vendor/samsung/gogh/proprietary/bin/immvibed:system/bin/immvibed \
+#        vendor/samsung/gogh/proprietary/bin/hostapd:system/bin/hostapd \
+#        vendor/samsung/gogh/proprietary/bin/hciattach:system/bin/hciattach \
 #        vendor/samsung/gogh/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
 #        vendor/samsung/gogh/proprietary/bin/mpdecision:system/bin/mpdecision \
