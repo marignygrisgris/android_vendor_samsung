@@ -131,7 +131,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
         vendor/samsung/gogh/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
         vendor/samsung/gogh/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
-        vendor/samsung/gogh/proprietary/lib/libdivxdrm.so:system/lib/libdivxdrm.so 
+        vendor/samsung/gogh/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so 
 
 
 # VPN (Victory VMU-MG5)
@@ -165,6 +165,7 @@ PRODUCT_COPY_FILES += \
 
 # Bluetooth (Victory VMU-MG5)
 PRODUCT_COPY_FILES += \
+        vendor/samsung/gogh/proprietary/bin/hciattach:system/bin/hciattach \
         vendor/samsung/gogh/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
         vendor/samsung/gogh/proprietary/bin/LE_dut:system/bin/LE_dut \
         vendor/samsung/gogh/proprietary/bin/qcom_dut:system/bin/qcom_dut \
@@ -224,6 +225,8 @@ PRODUCT_COPY_FILES += \
 
 # General
 PRODUCT_COPY_FILES += \
+        vendor/samsung/gogh/proprietary/bin/bintvoutservice:system/bin/bintvoutservice \
+        vendor/samsung/gogh/proprietary/bin/immvibed:system/bin/immvibed \
         vendor/samsung/gogh/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
         vendor/samsung/gogh/proprietary/bin/btnvtool:system/bin/btnvtool \
         vendor/samsung/gogh/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
