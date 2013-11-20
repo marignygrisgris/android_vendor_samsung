@@ -29,6 +29,9 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/gogh/proprietary/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so \
         vendor/samsung/gogh/proprietary/lib/libwvm.so:system/lib/libwvm.so 
 
+# DRM (D2VZW) 
+PRODUCT_COPY_FILES += \
+        vendor/samsung/gogh/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so 
 
 # NFC (Victory VMU-MG5)
 PRODUCT_COPY_FILES += \
@@ -130,8 +133,8 @@ PRODUCT_COPY_FILES += \
 # Parser (Victory VMU-MG5)
 PRODUCT_COPY_FILES += \
         vendor/samsung/gogh/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
-        vendor/samsung/gogh/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
-        vendor/samsung/gogh/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so 
+        vendor/samsung/gogh/proprietary/lib/libmmosal.so:system/lib/libmmosal.so 
+
 
 
 # VPN (Victory VMU-MG5)
