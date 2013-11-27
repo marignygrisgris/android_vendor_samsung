@@ -236,11 +236,12 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/gogh/proprietary/bin/usbhub:system/bin/usbhub \
         vendor/samsung/gogh/proprietary/bin/usbhub_init:system/bin/usbhub_init \
         vendor/samsung/gogh/proprietary/lib/libdiag.so:system/lib/libdiag.so \
-        vendor/samsung/gogh/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so 
+ 
 
 # General (D2-Sprint)
 PRODUCT_COPY_FILES += \
-        vendor/samsung/gogh/proprietary/bin/port-bridge:system/bin/port-bridge 
+        vendor/samsung/gogh/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
+        vendor/samsung/gogh/proprietary/bin/port-bridge:system/bin/port-bridge  
 
 
 #        vendor/samsung/gogh/proprietary/bin/hciattach:system/bin/hciattach \
