@@ -20,4 +20,4 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/goghvmu/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so
 
 PRODUCT_COPY_FILES += \
-	vendor/samsung/goghvmu/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon
+	vendor/samsung/goghvmu/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \

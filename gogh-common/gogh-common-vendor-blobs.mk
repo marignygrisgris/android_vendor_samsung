@@ -16,115 +16,145 @@
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/gogh-common/proprietary/bin/at_distributor:system/bin/at_distributor \
+    vendor/samsung/gogh-common/proprietary/bin/bluetoothd:system/bin/bluetoothd \
     vendor/samsung/gogh-common/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
     vendor/samsung/gogh-common/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/samsung/gogh-common/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
+    vendor/samsung/gogh-common/proprietary/bin/geomagneticd:system/bin/geomagneticd \
     vendor/samsung/gogh-common/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/samsung/gogh-common/proprietary/bin/hciattach:system/bin/hciattach \
+    vendor/samsung/gogh-common/proprietary/bin/hostapd:system/bin/hostapd \
     vendor/samsung/gogh-common/proprietary/bin/immvibed:system/bin/immvibed \
     vendor/samsung/gogh-common/proprietary/bin/LE_dut:system/bin/LE_dut \
+    vendor/samsung/gogh-common/proprietary/bin/macloader:system/bin/macloader \
+    vendor/samsung/gogh-common/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/samsung/gogh-common/proprietary/bin/mpdecision:system/bin/mpdecision \
+    vendor/samsung/gogh-common/proprietary/bin/netmgrd:system/bin/netmgrd \
+    vendor/samsung/gogh-common/proprietary/bin/orientationd:system/bin/orientationd \
     vendor/samsung/gogh-common/proprietary/bin/port-bridge:system/bin/port-bridge \
-    vendor/samsung/gogh-common/proprietary/bin/secstarter:system/bin/secstarter \
-    vendor/samsung/gogh-common/proprietary/bin/qcom_dut:system/bin/qcom_dut \
     vendor/samsung/gogh-common/proprietary/bin/qcom_audio_dut:system/bin/qcom_audio_dut \
+    vendor/samsung/gogh-common/proprietary/bin/qcom_dut:system/bin/qcom_dut \
+    vendor/samsung/gogh-common/proprietary/bin/qmiproxy:system/bin/qmiproxy \
+    vendor/samsung/gogh-common/proprietary/bin/qmuxd:system/bin/qmuxd \
+    vendor/samsung/gogh-common/proprietary/bin/quipc_igsn:system/bin/quipc_igsn \
+    vendor/samsung/gogh-common/proprietary/bin/quipc_main:system/bin/quipc_main \
+    vendor/samsung/gogh-common/proprietary/bin/rild:system/bin/rild \
+    vendor/samsung/gogh-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
+    vendor/samsung/gogh-common/proprietary/bin/sec-ril:system/bin/sec-ril \
+    vendor/samsung/gogh-common/proprietary/bin/secstarter:system/bin/secstarter \
+    vendor/samsung/gogh-common/proprietary/bin/thermald:system/bin/thermald \
     vendor/samsung/gogh-common/proprietary/bin/usbhub:system/bin/usbhub \
     vendor/samsung/gogh-common/proprietary/bin/usbhub_init:system/bin/usbhub_init \
     vendor/samsung/gogh-common/proprietary/bin/vpnclientpm:system/bin/vpnclientpm \
-    vendor/samsung/gogh-common/proprietary/bin/thermald:system/bin/thermald \
-    vendor/samsung/gogh-common/proprietary/etc/thermald.conf:system/etc/thermald.conf \
-    vendor/samsung/gogh-common/proprietary/etc/thermald-8960.conf:system/etc/thermald-8960.conf \
-    vendor/samsung/gogh-common/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
-    vendor/samsung/gogh-common/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
-    vendor/samsung/gogh-common/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
-    vendor/samsung/gogh-common/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
-    vendor/samsung/gogh-common/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
-    vendor/samsung/gogh-common/proprietary/lib/libdivxdrm.so:system/lib/libdivxdrm.so \
-    vendor/samsung/gogh-common/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
-    vendor/samsung/gogh-common/proprietary/bin/netmgrd:system/bin/netmgrd \
-    vendor/samsung/gogh-common/proprietary/bin/sec-ril:system/bin/sec-ril \
-    vendor/samsung/gogh-common/proprietary/bin/qmiproxy:system/bin/qmiproxy \
-    vendor/samsung/gogh-common/proprietary/bin/qmuxd:system/bin/qmuxd \
-    vendor/samsung/gogh-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-    vendor/samsung/gogh-common/proprietary/bin/rild:system/bin/rild \
     vendor/samsung/gogh-common/proprietary/bin/wdsdaemon:system/bin/wdsdaemon \
-    vendor/samsung/gogh-common/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
-    vendor/samsung/gogh-common/proprietary/lib/libqmi.so:system/lib/libqmi.so \
-    vendor/samsung/gogh-common/proprietary/lib/libqdi.so:system/lib/libqdi.so \
-    vendor/samsung/gogh-common/proprietary/lib/libqdp.so:system/lib/libqdp.so \
-    vendor/samsung/gogh-common/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
-    vendor/samsung/gogh-common/proprietary/lib/libril.so:system/lib/libril.so \
-    vendor/samsung/gogh-common/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
-    vendor/samsung/gogh-common/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
-    vendor/samsung/gogh-common/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
-    vendor/samsung/gogh-common/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
-    vendor/samsung/gogh-common/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
-    vendor/samsung/gogh-common/proprietary/lib/libidl.so:system/lib/libidl.so \
-    vendor/samsung/gogh-common/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
-    vendor/samsung/gogh-common/proprietary/lib/libqmi_cci.so:system/lib/libqmi_cci.so \
-    vendor/samsung/gogh-common/proprietary/lib/libqmi_csi.so:system/lib/libqmi_csi.so \
-    vendor/samsung/gogh-common/proprietary/lib/libqmi_common_so.so:system/lib/libqmi_common_so.so \
-    vendor/samsung/gogh-common/proprietary/lib/libqmi_encdec.so:system/lib/libqmi_encdec.so \
-    vendor/samsung/gogh-common/proprietary/lib/libatparser.so:system/lib/libatparser.so \
     vendor/samsung/gogh-common/proprietary/bin/wiperiface_v02:system/bin/wiperiface_v02 \
-    vendor/samsung/gogh-common/proprietary/bin/quipc_igsn:system/bin/quipc_igsn \
-    vendor/samsung/gogh-common/proprietary/bin/quipc_main:system/bin/quipc_main \
-    vendor/samsung/gogh-common/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
-    vendor/samsung/gogh-common/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
-    vendor/samsung/gogh-common/proprietary/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
-    vendor/samsung/gogh-common/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
-    vendor/samsung/gogh-common/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/samsung/gogh-common/proprietary/lib/libcurl.so:system/lib/libcurl.so \
-    vendor/samsung/gogh-common/proprietary/lib/libbson.so:system/lib/libbson.so \
-    vendor/samsung/gogh-common/proprietary/lib/libquipc_os_api.so:system/lib/libquipc_os_api.so \
-    vendor/samsung/gogh-common/proprietary/lib/libquipc_ulp_adapter.so:system/lib/libquipc_ulp_adapter.so \
-    vendor/samsung/gogh-common/proprietary/lib/libwifiscanner.so:system/lib/libwifiscanner.so \
-    vendor/samsung/gogh-common/proprietary/lib/hw/nfc.MSM8960.so:system/lib/hw/nfc.MSM8960.so \
-    vendor/samsung/gogh-common/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
-    vendor/samsung/gogh-common/proprietary/bin/geomagneticd:system/bin/geomagneticd \
-    vendor/samsung/gogh-common/proprietary/bin/orientationd:system/bin/orientationd \
-    vendor/samsung/gogh-common/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
-    vendor/samsung/gogh-common/proprietary/lib/libWakeUpSensory.so:system/lib/libWakeUpSensory.so \
-    vendor/samsung/gogh-common/proprietary/lib/libsensor_yamaha532_test.so:system/lib/libsensor_yamaha532_test.so \
-    vendor/samsung/gogh-common/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    vendor/samsung/gogh-common/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
-    vendor/samsung/gogh-common/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
-    vendor/samsung/gogh-common/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
-    vendor/samsung/gogh-common/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
-    vendor/samsung/gogh-common/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
-    vendor/samsung/gogh-common/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
-    vendor/samsung/gogh-common/proprietary/lib/libgemini.so:system/lib/libgemini.so \
-    vendor/samsung/gogh-common/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
-    vendor/samsung/gogh-common/proprietary/lib/libmmmpod.so:system/lib/libmmmpod.so \
-    vendor/samsung/gogh-common/proprietary/lib/libmmstereo.so:system/lib/libmmstereo.so \
-    vendor/samsung/gogh-common/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
-    vendor/samsung/gogh-common/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
-    vendor/samsung/gogh-common/proprietary/lib/libmmcamera_statsproc30.so:system/lib/libmmcamera_statsproc30.so \
-    vendor/samsung/gogh-common/proprietary/lib/libchromatix_imx074_default_video.so:system/lib/libchromatix_imx074_default_video.so \
-    vendor/samsung/gogh-common/proprietary/lib/libchromatix_imx074_preview.so:system/lib/libchromatix_imx074_preview.so \
-    vendor/samsung/gogh-common/proprietary/lib/libchromatix_ov2720_default_video.so:system/lib/libchromatix_ov2720_default_video.so \
-    vendor/samsung/gogh-common/proprietary/lib/libchromatix_ov2720_preview.so:system/lib/libchromatix_ov2720_preview.so \
-    vendor/samsung/gogh-common/proprietary/lib/libchromatix_s5k3l1yx_default_video.so:system/lib/libchromatix_s5k3l1yx_default_video.so \
-    vendor/samsung/gogh-common/proprietary/lib/libchromatix_s5k3l1yx_preview.so:system/lib/libchromatix_s5k3l1yx_preview.so \
-    vendor/samsung/gogh-common/proprietary/lib/libchromatix_s5k3l1yx_video_hd.so:system/lib/libchromatix_s5k3l1yx_video_hd.so \
-    vendor/samsung/gogh-common/proprietary/lib/libchromatix_s5k3l1yx_zsl.so:system/lib/libchromatix_s5k3l1yx_zsl.so \
     vendor/samsung/gogh-common/proprietary/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
     vendor/samsung/gogh-common/proprietary/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv \
-    vendor/samsung/gogh-common/proprietary/lib/libdiag.so:system/lib/libdiag.so \
-    vendor/samsung/gogh-common/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
-    vendor/samsung/gogh-common/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini:system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini \
-    vendor/samsung/gogh-common/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
+    vendor/samsung/gogh-common/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
+    vendor/samsung/gogh-common/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
+    vendor/samsung/gogh-common/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
+    vendor/samsung/gogh-common/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
+    vendor/samsung/gogh-common/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
+    vendor/samsung/gogh-common/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
+    vendor/samsung/gogh-common/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
+    vendor/samsung/gogh-common/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
+    vendor/samsung/gogh-common/proprietary/etc/firmware/wcd9310:system/etc/firmware/wcd9310 \
+    vendor/samsung/gogh-common/proprietary/etc/firmware/wcd9310/wcd9310_anc.bin:system/etc/firmware/wcd9310/wcd9310_anc.bin \
+    vendor/samsung/gogh-common/proprietary/etc/firmware/wcd9310/wcd9310_mbhc.bin:system/etc/firmware/wcd9310/wcd9310_mbhc.bin \
     vendor/samsung/gogh-common/proprietary/etc/firmware/wcnss.b00:system/etc/firmware/wcnss.b00 \
     vendor/samsung/gogh-common/proprietary/etc/firmware/wcnss.b01:system/etc/firmware/wcnss.b01 \
     vendor/samsung/gogh-common/proprietary/etc/firmware/wcnss.b02:system/etc/firmware/wcnss.b02 \
     vendor/samsung/gogh-common/proprietary/etc/firmware/wcnss.b04:system/etc/firmware/wcnss.b04 \
     vendor/samsung/gogh-common/proprietary/etc/firmware/wcnss.b05:system/etc/firmware/wcnss.b05 \
     vendor/samsung/gogh-common/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt \
+    vendor/samsung/gogh-common/proprietary/etc/firmware/wlan:system/etc/firmware/wlan \
+    vendor/samsung/gogh-common/proprietary/etc/firmware/wlan/prima:system/etc/firmware/wlan/prima \
+    vendor/samsung/gogh-common/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
+    vendor/samsung/gogh-common/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini:system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini \
+    vendor/samsung/gogh-common/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
+    vendor/samsung/gogh-common/proprietary/etc/thermald-8960.conf:system/etc/thermald-8960.conf \
+    vendor/samsung/gogh-common/proprietary/etc/thermald.conf:system/etc/thermald.conf \
     vendor/samsung/gogh-common/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
-    vendor/samsung/gogh-common/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
-    vendor/samsung/gogh-common/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
-    vendor/samsung/gogh-common/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
-    vendor/samsung/gogh-common/proprietary/lib/modules/vpnclient.ko:system/lib/modules/vpnclient.ko \
+    vendor/samsung/gogh-common/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
+    vendor/samsung/gogh-common/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
+    vendor/samsung/gogh-common/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
+    vendor/samsung/gogh-common/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
+    vendor/samsung/gogh-common/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
+    vendor/samsung/gogh-common/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
+    vendor/samsung/gogh-common/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
+    vendor/samsung/gogh-common/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
+    vendor/samsung/gogh-common/proprietary/lib/hw/nfc.MSM8960.so:system/lib/hw/nfc.MSM8960.so \
+    vendor/samsung/gogh-common/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
+    vendor/samsung/gogh-common/proprietary/lib/libalsa-intf.so:system/lib/libalsa-intf.so \
+    vendor/samsung/gogh-common/proprietary/lib/libatparser.so:system/lib/libatparser.so \
+    vendor/samsung/gogh-common/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
+    vendor/samsung/gogh-common/proprietary/lib/libbson.so:system/lib/libbson.so \
+    vendor/samsung/gogh-common/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
+    vendor/samsung/gogh-common/proprietary/lib/libchromatix_imx074_default_video.so:system/lib/libchromatix_imx074_default_video.so \
+    vendor/samsung/gogh-common/proprietary/lib/libchromatix_imx074_preview.so:system/lib/libchromatix_imx074_preview.so \
+    vendor/samsung/gogh-common/proprietary/lib/libchromatix_ov2720_default_video.so:system/lib/libchromatix_ov2720_default_video.so \
+    vendor/samsung/gogh-common/proprietary/lib/libchromatix_ov2720_preview.so:system/lib/libchromatix_ov2720_preview.so \
+    vendor/samsung/gogh-common/proprietary/lib/libchromatix_s5k3l1yx_default_video.so:system/lib/libchromatix_s5k3l1yx_default_video.so \
+    vendor/samsung/gogh-common/proprietary/lib/libchromatix_s5k3l1yx_hfr_120fps.so:system/lib/libchromatix_s5k3l1yx_hfr_120fps.so \
+    vendor/samsung/gogh-common/proprietary/lib/libchromatix_s5k3l1yx_hfr_60fps.so:system/lib/libchromatix_s5k3l1yx_hfr_60fps.so \
+    vendor/samsung/gogh-common/proprietary/lib/libchromatix_s5k3l1yx_hfr_90fps.so:system/lib/libchromatix_s5k3l1yx_hfr_90fps.so \
+    vendor/samsung/gogh-common/proprietary/lib/libchromatix_s5k3l1yx_preview.so:system/lib/libchromatix_s5k3l1yx_preview.so \
+    vendor/samsung/gogh-common/proprietary/lib/libchromatix_s5k3l1yx_video_hd.so:system/lib/libchromatix_s5k3l1yx_video_hd.so \
+    vendor/samsung/gogh-common/proprietary/lib/libchromatix_s5k3l1yx_zsl.so:system/lib/libchromatix_s5k3l1yx_zsl.so \
+    vendor/samsung/gogh-common/proprietary/lib/libcontrolcsc.so:system/lib/libcontrolcsc.so \
+    vendor/samsung/gogh-common/proprietary/lib/libcurl.so:system/lib/libcurl.so \
+    vendor/samsung/gogh-common/proprietary/lib/libdiag.so:system/lib/libdiag.so \
+    vendor/samsung/gogh-common/proprietary/lib/libdivxdrm.so:system/lib/libdivxdrm.so \
+    vendor/samsung/gogh-common/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
+    vendor/samsung/gogh-common/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
+    vendor/samsung/gogh-common/proprietary/lib/libgemini.so:system/lib/libgemini.so \
+    vendor/samsung/gogh-common/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
+    vendor/samsung/gogh-common/proprietary/lib/libgsl.so:system/lib/libgsl.so \
+    vendor/samsung/gogh-common/proprietary/lib/libidl.so:system/lib/libidl.so \
+    vendor/samsung/gogh-common/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
+    vendor/samsung/gogh-common/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
+    vendor/samsung/gogh-common/proprietary/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
+    vendor/samsung/gogh-common/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+    vendor/samsung/gogh-common/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
+    vendor/samsung/gogh-common/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
+    vendor/samsung/gogh-common/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
+    vendor/samsung/gogh-common/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
+    vendor/samsung/gogh-common/proprietary/lib/libmmcamera_statsproc30.so:system/lib/libmmcamera_statsproc30.so \
+    vendor/samsung/gogh-common/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
+    vendor/samsung/gogh-common/proprietary/lib/libmmmpod.so:system/lib/libmmmpod.so \
+    vendor/samsung/gogh-common/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
+    vendor/samsung/gogh-common/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
+    vendor/samsung/gogh-common/proprietary/lib/libmmstereo.so:system/lib/libmmstereo.so \
+    vendor/samsung/gogh-common/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
+    vendor/samsung/gogh-common/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
+    vendor/samsung/gogh-common/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
+    vendor/samsung/gogh-common/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
+    vendor/samsung/gogh-common/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
+    vendor/samsung/gogh-common/proprietary/lib/libqdi.so:system/lib/libqdi.so \
+    vendor/samsung/gogh-common/proprietary/lib/libqdp.so:system/lib/libqdp.so \
+    vendor/samsung/gogh-common/proprietary/lib/libqmi_cci.so:system/lib/libqmi_cci.so \
+    vendor/samsung/gogh-common/proprietary/lib/libqmi_common_so.so:system/lib/libqmi_common_so.so \
+    vendor/samsung/gogh-common/proprietary/lib/libqmi_csi.so:system/lib/libqmi_csi.so \
+    vendor/samsung/gogh-common/proprietary/lib/libqmi_encdec.so:system/lib/libqmi_encdec.so \
+    vendor/samsung/gogh-common/proprietary/lib/libqmi.so:system/lib/libqmi.so \
+    vendor/samsung/gogh-common/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
+    vendor/samsung/gogh-common/proprietary/lib/libquipc_os_api.so:system/lib/libquipc_os_api.so \
+    vendor/samsung/gogh-common/proprietary/lib/libquipc_ulp_adapter.so:system/lib/libquipc_ulp_adapter.so \
+    vendor/samsung/gogh-common/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
+    vendor/samsung/gogh-common/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
+    vendor/samsung/gogh-common/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
+    vendor/samsung/gogh-common/proprietary/lib/libril.so:system/lib/libril.so \
+    vendor/samsung/gogh-common/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
+    vendor/samsung/gogh-common/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
+    vendor/samsung/gogh-common/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
+    vendor/samsung/gogh-common/proprietary/lib/libsensor_yamaha532_test.so:system/lib/libsensor_yamaha532_test.so \
+    vendor/samsung/gogh-common/proprietary/lib/libWakeUpSensory.so:system/lib/libWakeUpSensory.so \
+    vendor/samsung/gogh-common/proprietary/lib/libwifiscanner.so:system/lib/libwifiscanner.so \
+    vendor/samsung/gogh-common/proprietary/lib/libwvm.so:system/lib/libwvm.so \
+    vendor/samsung/gogh-common/proprietary/lib/modules/cfg80211.ko:system/lib/modules/cfg80211.ko \
+    vendor/samsung/gogh-common/proprietary/lib/modules/prima:system/lib/modules/prima \
     vendor/samsung/gogh-common/proprietary/lib/modules/prima/cfg80211.ko:system/lib/modules/prima/cfg80211.ko \
     vendor/samsung/gogh-common/proprietary/lib/modules/prima/prima_wlan.ko:system/lib/modules/prima/prima_wlan.ko \
-    vendor/samsung/gogh-common/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so
+    vendor/samsung/gogh-common/proprietary/lib/modules/vpnclient.ko:system/lib/modules/vpnclient.ko \
+    vendor/samsung/gogh-common/proprietary/lib/modules/wlan.ko:system/lib/modules/wlan.ko \
+    vendor/samsung/gogh-common/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so
