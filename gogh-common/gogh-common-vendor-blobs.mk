@@ -16,6 +16,7 @@
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/gogh-common/proprietary/bin/at_distributor:system/bin/at_distributor \
+    vendor/samsung/gogh-common/proprietary/bin/bintvoutservice:system/bin/bintvoutservice \
     vendor/samsung/gogh-common/proprietary/bin/bluetoothd:system/bin/bluetoothd \
     vendor/samsung/gogh-common/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
     vendor/samsung/gogh-common/proprietary/bin/btnvtool:system/bin/btnvtool \
@@ -58,7 +59,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gogh-common/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
     vendor/samsung/gogh-common/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
     vendor/samsung/gogh-common/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
-    vendor/samsung/gogh-common/proprietary/etc/firmware/wcd9310:system/etc/firmware/wcd9310 \
     vendor/samsung/gogh-common/proprietary/etc/firmware/wcd9310/wcd9310_anc.bin:system/etc/firmware/wcd9310/wcd9310_anc.bin \
     vendor/samsung/gogh-common/proprietary/etc/firmware/wcd9310/wcd9310_mbhc.bin:system/etc/firmware/wcd9310/wcd9310_mbhc.bin \
     vendor/samsung/gogh-common/proprietary/etc/firmware/wcnss.b00:system/etc/firmware/wcnss.b00 \
@@ -67,14 +67,15 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gogh-common/proprietary/etc/firmware/wcnss.b04:system/etc/firmware/wcnss.b04 \
     vendor/samsung/gogh-common/proprietary/etc/firmware/wcnss.b05:system/etc/firmware/wcnss.b05 \
     vendor/samsung/gogh-common/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt \
-    vendor/samsung/gogh-common/proprietary/etc/firmware/wlan:system/etc/firmware/wlan \
-    vendor/samsung/gogh-common/proprietary/etc/firmware/wlan/prima:system/etc/firmware/wlan/prima \
     vendor/samsung/gogh-common/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
     vendor/samsung/gogh-common/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini:system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini \
     vendor/samsung/gogh-common/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
+    vendor/samsung/gogh-common/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
+    vendor/samsung/gogh-common/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
     vendor/samsung/gogh-common/proprietary/etc/thermald-8960.conf:system/etc/thermald-8960.conf \
     vendor/samsung/gogh-common/proprietary/etc/thermald.conf:system/etc/thermald.conf \
     vendor/samsung/gogh-common/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
+    vendor/samsung/gogh-common/proprietary/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
     vendor/samsung/gogh-common/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
     vendor/samsung/gogh-common/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
     vendor/samsung/gogh-common/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
@@ -89,6 +90,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gogh-common/proprietary/lib/libatparser.so:system/lib/libatparser.so \
     vendor/samsung/gogh-common/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/samsung/gogh-common/proprietary/lib/libbson.so:system/lib/libbson.so \
+    vendor/samsung/gogh-common/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
     vendor/samsung/gogh-common/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
     vendor/samsung/gogh-common/proprietary/lib/libchromatix_imx074_default_video.so:system/lib/libchromatix_imx074_default_video.so \
     vendor/samsung/gogh-common/proprietary/lib/libchromatix_imx074_preview.so:system/lib/libchromatix_imx074_preview.so \
@@ -104,7 +106,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gogh-common/proprietary/lib/libcontrolcsc.so:system/lib/libcontrolcsc.so \
     vendor/samsung/gogh-common/proprietary/lib/libcurl.so:system/lib/libcurl.so \
     vendor/samsung/gogh-common/proprietary/lib/libdiag.so:system/lib/libdiag.so \
+    vendor/samsung/gogh-common/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
     vendor/samsung/gogh-common/proprietary/lib/libdivxdrm.so:system/lib/libdivxdrm.so \
+    vendor/samsung/gogh-common/proprietary/lib/libdrmwvmplugin.so:system/lib/libdrmwvmplugin.so \
     vendor/samsung/gogh-common/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
     vendor/samsung/gogh-common/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
     vendor/samsung/gogh-common/proprietary/lib/libgemini.so:system/lib/libgemini.so \
@@ -150,7 +154,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gogh-common/proprietary/lib/libsensor_yamaha532_test.so:system/lib/libsensor_yamaha532_test.so \
     vendor/samsung/gogh-common/proprietary/lib/libWakeUpSensory.so:system/lib/libWakeUpSensory.so \
     vendor/samsung/gogh-common/proprietary/lib/libwifiscanner.so:system/lib/libwifiscanner.so \
+    vendor/samsung/gogh-common/proprietary/lib/libwvdrm_L1.so:system/lib/libwvdrm_L1.so \
     vendor/samsung/gogh-common/proprietary/lib/libwvm.so:system/lib/libwvm.so \
+    vendor/samsung/gogh-common/proprietary/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so \
+    vendor/samsung/gogh-common/proprietary/lib/libWVStreamControlAPI_L1.so:system/lib/libWVStreamControlAPI_L1.so \
     vendor/samsung/gogh-common/proprietary/lib/modules/cfg80211.ko:system/lib/modules/cfg80211.ko \
     vendor/samsung/gogh-common/proprietary/lib/modules/prima:system/lib/modules/prima \
     vendor/samsung/gogh-common/proprietary/lib/modules/prima/cfg80211.ko:system/lib/modules/prima/cfg80211.ko \

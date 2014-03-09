@@ -21,3 +21,5 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
 	vendor/samsung/goghvmu/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
+	vendor/samsung/goghvmu/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
+	vendor/samsung/goghvmu/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so
