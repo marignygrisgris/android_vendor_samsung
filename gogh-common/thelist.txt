@@ -125,11 +125,13 @@ lib/libimage-omx-common.so
 lib/libdivxdrm.so
 lib/libmmcamera_frameproc.so
 lib/libqmi_cci.so
+lib/libqcci_legacy.so
 lib/libdsutils.so
 lib/libmmosal.so
 lib/libmmparser.so
 lib/libqdi.so
 lib/libqmiservices.so
+lib/libqmi_client_qmux.so
 lib/libmm-color-convertor.so
 lib/libbson.so
 lib/liboemcamera.so
